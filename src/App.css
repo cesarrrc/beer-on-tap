@@ -3,7 +3,7 @@
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 60vmin;
   pointer-events: none;
 }
 
@@ -26,6 +26,30 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.clickable {
+  margin: auto;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  width: 800px
+
+}
+
+.popUp {
+  display: grid;
+  grid-template-columns: auto auto;
+  width: 700px
+}
+
+.g3 {
+  width: 600px;
+  grid-column: span 2;
+  margin: auto;
+
 }
 
 @keyframes App-logo-spin {
